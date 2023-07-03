@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;    
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family:'ClashDisplay-Semibold';
+  src: url(./Fonts/ClashDisplay_Complete/Fonts/OTF/ClashDisplay-Semibold.otf);
+}
+
+@font-face {
+  font-family:'ClashDisplay-Bold';
+  src: url(./Fonts/ClashDisplay_Complete/Fonts/OTF/ClashDisplay-Bold.otf);
+}
+
+@font-face {
+  font-family:'Urbanist-Medium';
+  src: url(./Fonts/Urbanist-master/fonts/otf/Urbanist-Medium.otf);
+}
+
+@font-face {
+  font-family:'Urbanist-Regular';
+  src: url(./Fonts/Urbanist-master/fonts/otf/Urbanist-Regular.otf);
+}
+
+@font-face {
+  font-family:'Urbanist-semibold';
+  src: url(./Fonts/Urbanist-master/fonts/otf/Urbanist-SemiBold.otf);
+}
+
+@font-face {
+  font-family:'Urbanist-Bold';
+  src: url(./Fonts/Urbanist-master/fonts/otf/Urbanist-Bold.otf);
+}
+
+.topbar{
+  height: 80px;
+}
+
+@media screen and (max-width:900px){
+  .topbar{
+    height: 20vh;
+  }
+}
