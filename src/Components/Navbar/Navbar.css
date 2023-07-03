@@ -1,0 +1,161 @@
+.navbar{
+    background: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    padding: 15px 0;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo p{
+  font-size: 20px;
+  font-family:'ClashDisplay-Semibold';
+}
+
+.nav-elements{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  font-family:'Urbanist-Bold';
+}
+
+.nav-elements ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+  }
+
+  .nav-elements ul li{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+  }
+  
+  .nav-elements ul li:last-child {
+    margin-right:0;
+  }
+
+  
+.nav-elements ul a {
+    font-size: 16px;
+    font-family:'Urbanist-Medium';
+    color: #000;
+    text-decoration: none;
+  }
+  .nav-elements ul li a:hover{
+    color: #FF6D03;
+  }
+  
+  
+
+  .auth-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+  }
+
+  .auth-flex div{
+    margin-right: 40px;
+  }
+
+  .auth-flex div:last-child{
+    margin-right: 0;
+  }
+  
+.cartbox{
+  position: relative;
+}
+.cartbox span{
+  position: absolute;
+  top: -10px;
+  right: -13px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+  .nav-icon{
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .menu-icon img{
+    width: 30px;
+    height: 25px;
+    object-fit: cover;
+  }
+
+  
+  @media screen and (max-width:900px){
+      .navbar{
+        border-bottom: 1px solid #D2D2D2;
+    }
+
+    .container{
+      padding: 14px 0;
+    }
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+      }
+    
+      .nav-elements {
+        position: absolute;
+        right: 0;
+        top: 10vh;
+        background-color: #fff;
+        width: 0px;
+        height: calc(100vh - 60px);
+        transition: all 0.3s ease-in;
+        overflow: hidden;
+      }
+    
+      .nav-elements.active {
+        width: 60%;
+      }
+    
+      .nav-elements ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 50px;
+      }
+    
+      .nav-elements ul li {
+        margin-right: unset;
+        margin-top: 35px;
+      }
+
+      .Agent-btn button{
+        padding: 15px 25px;
+        border: none;
+        font-size: 14px;
+        font-family:'Neue-Medium';
+        margin-right: unset;
+        margin-top: 35px;
+      }
+      
+  }

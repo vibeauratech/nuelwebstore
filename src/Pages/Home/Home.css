@@ -1,0 +1,100 @@
+.hero{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 70px 0;
+    background: #000;
+}
+
+.hero-con{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-tag{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.head-tag h1{
+    width: 100%;
+    font-size: 64px;
+    font-family:'ClashDisplay-Bold';
+    color: #fff;
+}
+
+.head-tag button{
+    margin-top: 20px;
+    background: #FF6D03;
+    color: #000;
+    font-family:'Urbanist-Bold';
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eArrow{
+    width: 25px;
+    height: 20px;
+    object-fit: cover;
+    margin-left: 10px;
+}
+
+.reel{
+    width: 100%;
+}
+
+
+@media screen and (max-width:1000px){
+    .hero{
+        width: 90%;
+        margin: 0 auto;
+        padding: 40px 0;
+        background: #000;
+        border-radius: 20px;
+    } 
+
+    .hero-con{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;   
+    }
+
+    .head-tag{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .head-tag h1{
+        font-size: 36px;
+        font-family:'ClashDisplay-Bold';
+        color: #fff;
+    }
+
+    .head-tag button{
+        width: 180px;
+        font-size: 16px;
+    }
+
+    .eArrow{
+        width: 25px;
+        height: 15px;
+        object-fit: cover;
+        margin-left: 10px;
+    }
+    
+
+    .head-img{
+        margin-top: 50px;
+    }
+}

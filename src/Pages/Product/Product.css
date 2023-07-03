@@ -1,0 +1,150 @@
+.product{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+
+.left{
+    flex-basis: 55%;
+    display: flex;
+    gap: 50px;
+}
+
+.right{
+    flex-basis: 40%;
+}
+
+.secondary-img{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.secondary-img img{
+    padding: 5px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    width: 100px;
+    height: 150px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.primary-img img{
+    width: 100%;
+    height: 500px;
+    transition: all ease 0.5s;
+    object-fit: contain;
+}
+
+.main-info h1{
+    font-family:'ClashDisplay-Bold';
+}
+
+.main-info p{
+    font-family:'Urbanist-Medium';
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+   
+.main-info span{
+    font-family:'Urbanist-Medium';
+}
+
+.desc-box{
+    margin-top: 60px;
+}
+
+.desc-box p{
+    font-size: 14px;
+    font-family:'Urbanist-Medium';
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.item-btn{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 60px;
+    font-family:'Urbanist-Bold';
+}
+
+.item-btn button{
+    margin-right:10px;
+    padding: 5px  10px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.item-btn button:last-child{
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.item-cta{
+    margin-top: 20px;
+  }
+  
+  .item-cta button{
+      width: 100%;
+      background: #000;
+      color: #fff;
+      border: none;
+      font-family:'Urbanist-Bold';
+      padding: 15px 0;
+      cursor: pointer;
+  }
+
+  .item-cta button:hover{
+    transition: all ease 0.5s;
+    background: #dddddd;
+    color: #000;
+  }
+
+
+@media screen and (max-width:900px){
+    .product{
+        flex-direction: column;
+    }  
+
+    .left{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .secondary-img{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    
+.secondary-img img{
+    width: 80px;
+    height: 80px;
+    
+}
+
+    .main-info h1{
+        font-size: 24px;
+    }
+
+    .desc-box{
+        margin-top: 40px;
+        font-family:'Urbanist-Bold';
+    }
+   
+    .item-btn{
+        margin-top: 40px;
+    }
+    
+}
