@@ -138,7 +138,7 @@
       .nav-elements {
         position: absolute;
         right: 0;
-        top: 10vh;
+        top: 8vh;
         background-color: #fff;
         width: 0px;
         height: calc(100vh - 60px);
