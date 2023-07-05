@@ -96,13 +96,17 @@
     cursor: pointer;
   }
 
+  .menu{
+    display: none;
+  }
+
   .menu-icon {
     display: none;
   }
 
   .menu-icon img{
-    width: 18px;
-    height: 20px;
+    width: 20px;
+    height: 24px;
     object-fit: cover;
   }
 
@@ -116,10 +120,15 @@
       padding: 14px 0;
     }
 
+    .menu{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 28px;
+    }
+
     .menu-icon {
-        display: flex;
-        justify-content: space-between;
-        gap: 25px;
+      display: block;
         cursor: pointer;
       }
     

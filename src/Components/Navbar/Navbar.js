@@ -51,15 +51,16 @@ const Navbar = () => {
                   </div>
                 </div>                
             </div>             
-
-            <div className="menu-icon" onClick={handleShowNavbar}>
-            <div className='auth'><img src={User} className="nav-icon" alt="list Images" /></div> 
-              <div className='cartbox' onClick={()=>setOpen(!open)}>
+             <div className='menu'>
+              <div className='auth'><img src={User} className="nav-icon" alt="list Images" /></div> 
+                 <div className='cartbox' onClick={()=>setOpen(!open)}>
                     <img src={CartIcon} className="nav-icon" alt="list Images" />
                     <span>0</span>
                   </div>
-             <img src={Menu} className="" alt="list Images" />
-            </div>
+                  <div className="menu-icon" onClick={handleShowNavbar}>
+                     <img src={Menu} className="" alt="list Images" />
+                  </div>
+             </div>
         </div>
 
         {open && <Cart/>}
