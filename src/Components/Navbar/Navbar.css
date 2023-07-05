@@ -56,7 +56,6 @@
   }
   
   
-
   .auth-flex{
     display: flex;
     justify-content: space-between;
@@ -112,7 +111,7 @@
 
   
   @media screen and (max-width:900px){
-      .navbar{
+    .navbar{
         border-bottom: 1px solid #D2D2D2;
     }
 
@@ -148,10 +147,12 @@
       }
     
       .nav-elements.active {
-        width: 60%;
+        width: 100%;
       }
     
       .nav-elements ul {
+        background: #fff;
+        z-index: 3;
         width: 100%;
         display: flex;
         justify-content: flex-start;
