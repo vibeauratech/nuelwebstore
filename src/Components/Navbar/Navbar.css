@@ -120,6 +120,10 @@
       padding: 14px 0;
     }
 
+    .auth-flex{
+      display: none;
+    }
+
     .menu{
       display: flex;
       justify-content: space-between;
