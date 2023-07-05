@@ -44,7 +44,7 @@ const Navbar = () => {
                   <div><img src={SearchIcon} className="nav-icon" alt="list Images" /></div>
 
                   <div className='auth'><img src={User} className="nav-icon" alt="list Images" /></div> 
-                  
+
                   <div className='cartbox' onClick={()=>setOpen(!open)}>
                     <img src={CartIcon} className="nav-icon" alt="list Images" />
                     <span>0</span>
@@ -53,6 +53,11 @@ const Navbar = () => {
             </div>             
 
             <div className="menu-icon" onClick={handleShowNavbar}>
+            <div className='auth'><img src={User} className="nav-icon" alt="list Images" /></div> 
+              <div className='cartbox' onClick={()=>setOpen(!open)}>
+                    <img src={CartIcon} className="nav-icon" alt="list Images" />
+                    <span>0</span>
+                  </div>
              <img src={Menu} className="" alt="list Images" />
             </div>
         </div>

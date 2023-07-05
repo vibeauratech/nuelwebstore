@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Cart.css"
+import Delete from "./CartImages/delete.png";
 
 function Cart() {
    const data = [
@@ -37,7 +38,9 @@ function Cart() {
               <span className='price'>1 * ${item.price}</span>
               </div>
            </div>
-           <div className='delete'>Delete</div> 
+           <div className='delete'>
+             <img src={Delete} className="" alt="" />
+            </div> 
          </div>
        ))}
 
