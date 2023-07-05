@@ -152,25 +152,17 @@
       }
     
       .nav-elements ul {
+        width: 100%;
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         flex-direction: column;
-        margin-top: 50px;
+
       }
     
       .nav-elements ul li {
         margin-right: unset;
         margin-top: 35px;
       }
-
-      .Agent-btn button{
-        padding: 15px 25px;
-        border: none;
-        font-size: 14px;
-        font-family:'Neue-Medium';
-        margin-right: unset;
-        margin-top: 35px;
-      }
-      
+     
   }
