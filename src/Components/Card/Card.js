@@ -9,7 +9,7 @@ function Card({item}) {
     <Link to= {`./product/${item.id}`}>
         <div className='card'>
           <div className='img-box'>
-            <img src={Roadman} className="cardImage" alt="arrow" />
+            <img src={item.img} className="cardImage" alt="" />
           </div>
            <div className='detail-bar'>
               <div>
