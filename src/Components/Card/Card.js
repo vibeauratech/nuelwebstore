@@ -1,7 +1,6 @@
 import React from 'react'
 import "./Card.css"
 import {Link } from 'react-router-dom'
-import Roadman from "./CardImages/RoadmanImage.png";
 import PreviewArrow from "./CardImages/PreviewArrow.png";
 
 function Card({item}) {
