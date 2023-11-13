@@ -1,5 +1,5 @@
 .card{
-    width: 100%;
+    min-width: 370px;
     height: auto;
     background: #f2f2f2;
 }
@@ -77,4 +77,13 @@
     object-fit: cover;
 }
 
+
+
+@media screen and (max-width:900px){
+    .card{
+        min-width: 300px;
+        height: auto;
+        background: #f2f2f2;
+    }  
+}
 

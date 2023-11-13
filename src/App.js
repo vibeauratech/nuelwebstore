@@ -4,6 +4,7 @@ import {
   Outlet
 } from "react-router-dom";
 
+import ScrollToTop from "./Components/Scrolltop";
 import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
 import Home from './Pages/Home/Home';
@@ -14,6 +15,7 @@ import './App.css';
 const Layout = () =>{
   return(
     <div className="main">
+      <ScrollToTop />
       <Navbar />
       <div className='topbar'></div>
       <Outlet/>

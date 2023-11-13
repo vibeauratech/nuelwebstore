@@ -23,6 +23,7 @@ function Home() {
       </div>
 
       <FeaturedProducts type ="Now selling"/>
+      
     </div>
   )
 }
